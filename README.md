@@ -6,6 +6,7 @@ A smart, embedded system for monitoring UV exposure and providing dermatological
 ---
 
 ## 📁 Project Structure
+```python
 ├── .pio/                          # PlatformIO build files
 ├── .vscode/                       # VSCode settings
 ├── include/                       # Header files
@@ -25,7 +26,7 @@ A smart, embedded system for monitoring UV exposure and providing dermatological
 ├── wokwi.toml                     # Wokwi configuration
 └── README.md                      # Project documentation
 
-
+```
 ## 🎯 Objective
 
 To create a portable device that:
@@ -99,7 +100,11 @@ Ensure that the VCC pins of the DHT22 sensor and the UV sensor are connected to 
 GND pins from both sensors should be connected to the ground of the ESP32.
 The data pins of the sensors are connected to appropriate GPIO pins on the ESP32, as shown in the diagram.
 
-##🧪 Wokwi Simulation
+<img src="hardware.png" alt="Project Screenshot">
+
+
+
+## 🧪 Wokwi Simulation
 To simulate the device virtually:
 
 Go to Wokwi Simulator
@@ -107,7 +112,7 @@ Upload diagram.json and wokwi.toml
 Follow the setup to simulate sensors and logic virtually
 
 
-##🚀 Future Improvements
+## 🚀 Future Improvements
 Mobile app connectivity for alerts
 AI-powered skin lesion classification
 Cloud logging of exposure data for dermatological analytics
