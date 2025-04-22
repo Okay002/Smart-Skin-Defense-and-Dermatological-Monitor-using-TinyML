@@ -1,0 +1,1 @@
+# Smart-Skin-Defense-and-Dermatological-Monitor-using-TinyML
