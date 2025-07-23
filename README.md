@@ -100,7 +100,7 @@ Ensure that the VCC pins of the DHT22 sensor and the UV sensor are connected to 
 GND pins from both sensors should be connected to the ground of the ESP32.
 The data pins of the sensors are connected to appropriate GPIO pins on the ESP32, as shown in the diagram.
 
-<img src="hardware.png" alt="Project Screenshot">
+<img src="hardware.jpg" alt="Project Screenshot">
 
 
 
